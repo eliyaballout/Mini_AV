@@ -1,0 +1,4 @@
+﻿  MiniAVConsole.cpp
+C:\Users\ISE\source\repos\MiniAVConsole\MiniAVConsole\MiniAVConsole.cpp(128,101): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\ISE\source\repos\MiniAVConsole\MiniAVConsole\MiniAVConsole.cpp(139,101): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  MiniAVConsole.vcxproj -> C:\Users\ISE\source\repos\MiniAVConsole\x64\Debug\MiniAVConsole.exe

@@ -1,0 +1,8 @@
+﻿  Building 'MiniAV' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  MiniAV.cpp
+  MiniAV.vcxproj -> C:\Users\ISE\source\repos\MiniAV\x64\Debug\MiniAV.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\ISE\source\repos\MiniAV\x64\Debug\MiniAV.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
