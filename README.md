@@ -40,13 +40,9 @@ The `sc` command-line tool is used to communicate with the SCM to install, start
 
 ## Key Components
 
-1. **Kernel Driver:** Implements the core antivirus functionalities at the kernel level.
-
-2. **User-Mode Application:** Provides a command-line interface to interact with the kernel driver.
-
-3. **Process Management:** Handles process creation notifications and enforces blacklisting and whitelisting rules.
+1. **MiniAV:** it has a cpp file called [MiniAV.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAV/MiniAV/MiniAV.cpp), Main kernel driver implementation.
    
-4. **Memory Dumping and Process Termination:** Allows dumping of process memory and termination of processes.
+2. **MiniAVconsole:** it has a cpp file called [MiniAVconsole.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAVConsole/MiniAVConsole/MiniAVConsole.cpp), User-mode application to send commands to the kernel driver.
 
 <br><br>
 
@@ -55,9 +51,13 @@ The `sc` command-line tool is used to communicate with the SCM to install, start
 
 ## Features
 
-1. **MiniAV:** it has a cpp file called [MiniAV.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAV/MiniAV/MiniAV.cpp), Main kernel driver implementation.
+1. **Kernel Driver:** Implements the core antivirus functionalities at the kernel level.
+
+2. **User-Mode Application:** Provides a command-line interface to interact with the kernel driver.
+
+3. **Process Management:** Handles process creation notifications and enforces blacklisting and whitelisting rules.
    
-2. **MiniAVconsole:** it has a cpp file called [MiniAVconsole.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAVConsole/MiniAVConsole/MiniAVConsole.cpp), User-mode application to send commands to the kernel driver.
+4. **Memory Dumping and Process Termination:** Allows dumping of process memory and termination of processes.
 
 <br><br>
 
@@ -174,7 +174,7 @@ sc stop av
 <br>
 
 
-**delete:**
+**delete:** <br>
 **Make sure you have stopped the driver before deleting it.**
 ```
 sc delete av
