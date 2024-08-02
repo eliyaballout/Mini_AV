@@ -119,7 +119,7 @@ sc start av
 
 **Initializing antivirus:**
 ```
-MiniAVconsole.exe -init
+MiniAVConsole.exe -init
 ```
 <br>
 
@@ -128,7 +128,7 @@ MiniAVconsole.exe -init
 
 **MiniAV can support only one blacklisted process name, that means you can block only one process per run, for example: if you run the command for blocking notepad and then run the same command for blocking chrome, the notepad will be unblocked and only chrome will be blocked.**
 ```
-MiniAVconsole.exe -blacklist <filename.exe>
+MiniAVConsole.exe -blacklist <filename.exe>
 ```
 where `<filename.exe>` should be the process you want to block (e.g. notepad.exe).
 <br><br>
@@ -138,7 +138,7 @@ where `<filename.exe>` should be the process you want to block (e.g. notepad.exe
 
 **MiniAV can support only one whitelisted process name (the same concept as the `blacklist` command).**
 ```
-MiniAVconsole.exe -whitelist <filename.exe>
+MiniAVConsole.exe -whitelist <filename.exe>
 ```
 where `<filename.exe>` should be the process you want to whitelisted (e.g. chrome.exe).
 <br><br>
@@ -146,7 +146,7 @@ where `<filename.exe>` should be the process you want to whitelisted (e.g. chrom
 
 **Dump process memory:**
 ```
-MiniAVconsole.exe -dump <pid> -size <n> -file <dumpfile>
+MiniAVConsole.exe -dump <pid> -size <n> -file <dumpfile>
 ```
 where `<pid>` should be the process ID that you want to dump its memory. <br>
 `<n>` should be the number of the first n bytes that you want to dump. <br>
@@ -156,7 +156,7 @@ And `<dumpfile>` should be the full path of the output file that you want to sav
 
 **Kill process:**
 ```
-MiniAVconsole.exe -kill <pid>
+MiniAVConsole.exe -kill <pid>
 ```
 where `<pid>` should be the process ID that you want to terminate.
 
