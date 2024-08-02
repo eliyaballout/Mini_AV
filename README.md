@@ -42,7 +42,7 @@ The `sc` command-line tool is used to communicate with the SCM to install, start
 
 1. **MiniAV:** it has a cpp file called [MiniAV.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAV/MiniAV/MiniAV.cpp), Main kernel driver implementation.
    
-2. **MiniAVconsole:** it has a cpp file called [MiniAVconsole.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAVConsole/MiniAVConsole/MiniAVConsole.cpp), User-mode application to send commands to the kernel driver.
+2. **MiniAVConsole:** it has a cpp file called [MiniAVConsole.cpp](https://github.com/eliyaballout/Mini_AV/blob/main/MiniAVConsole/MiniAVConsole/MiniAVConsole.cpp), User-mode application to send commands to the kernel driver.
 
 <br><br>
 
